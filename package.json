@@ -1,0 +1,22 @@
+{
+  "name": "PetToken",
+  "version": "1.0.1",
+  "description": "Smart Contract for PetToken",
+  "main": "index.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "smart contract",
+    "PetToken",
+    "BPT"
+  ],
+  "author": "Sangwon Lee <sangwonlee@blockpet.io>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "caver-js": "^1.4.1",
+    "truffle-hdwallet-provider-klaytn": "^1.0.13-a"
+  }
+}
